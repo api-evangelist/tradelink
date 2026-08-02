@@ -1,8 +1,25 @@
 aid: tradelink
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tradelink.png
 name: TradeLink
-description: TradeLink is a company surfaced as a portfolio company of insight-partners, point-nine and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: TradeLink is a Munich-based logistics SaaS company building the first collaboration
+  platform for supply chain and inbound/outbound logistics. Its cloud software gives warehouses,
+  suppliers, carriers, and dispatchers a shared system for time-slot (dock) booking, dock and
+  yard management, load-carrier and empties management, driver check-in terminals, and analytics
+  insights, replacing phone and email coordination with real-time, transparent workflows. TradeLink
+  integrates with existing ERP and transport-management systems and serves production, retail, and
+  contract-logistics companies across the DACH region and Europe, with customers including MAN, SPAR,
+  Liebherr, and Emons. It is backed by Insight Partners and Point Nine.
 url: https://raw.githubusercontent.com/api-evangelist/tradelink/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Logistics
+- Supply Chain
+- Warehouse Management
+- Slot Booking
+- Dock and Yard Management
+- Collaboration
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://en.tradelink.co/
+  url: https://www.tradelink.co/en-gb
+- type: DomainSecurity
+  url: security/tradelink-domain-security.yml
+- type: Blog
+  url: https://www.tradelink.co/en-gb/blog
+- type: Support
+  url: https://www.tradelink.co/en-gb/lp/faq
+- type: Login
+  url: https://www.tradelink.services/users/sign_in
+- type: SignUp
+  url: https://www.tradelink.co/en-gb/tradelink-kennenlernen
+- type: PrivacyPolicy
+  url: https://www.tradelink.co/en-gb/data-protection-declaration
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
